@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*faz com que as coisas colocadas na pagina nao somem com as dimensoes, faz ficarem sobre postas*/
+}
+
+header{
+    padding: 16px;
+    background-color: darkorange;
+    color: black;
+    font-family: 'Nosifer', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Bungee', sans-serif;
+}
+
+header nav li:hover{
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1240px; /*Define a largura maxima da pagina*/
+    width: 100%; /*Quantos % vai ocupar da largura especificada a cima*/
+    margin: 0 auto; /*define as margens laterais e de altura do conteudo, (0) é altura e (auto) define automatico o centro*/
+}
+
+header .container,
+section .container {
+    display: flex; /*coloca os menus ao lado do titulo do site*/
+    align-items: center;/*Cola os menus centralizados na vertical com o titulo da pagina*/
+    justify-content: space-between;/*joga os menus para extrema direita*/
+}
+
+.top1 {
+    height: 350px;
+    margin: 16px;
+}
+
+.re4 h2{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.re4 h3{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Nosifer', sans-serif;
+}
+
+.re4 p{
+    color: aliceblue;
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.spider h2{
+    color:rgb(177, 1, 1);
+    text-decoration: underline;
+
+}
+
+.spider h3{
+    color:rgb(177, 1, 1);
+    font-family: 'Nosifer', sans-serif;
+}
+
+.spider p{
+    color:rgb(177, 1, 1);
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.god h2{
+    color:rgb(4, 1, 177);
+    text-decoration: underline;
+
+}
+
+.god h3{
+    color:rgb(4, 1, 177);
+    font-family: 'Nosifer', sans-serif;
+}
+
+.god p{
+    color:rgb(4, 1, 177);
+    font-family: 'Bungee', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+
+.jogo:hover img{
+    transform:scale(1.05);
+    transition: .6s;
+}
+
+.top2 {
+    height: 350px;
+    margin: 16px;
+    display: flex;
+}
+
+.top3 {
+    height: 350px;
+    margin: 16px;
+}
+
+.jogo{
+    display: flex;
+}
+
+section p,
+h2,
+h3{
+    margin: 16px;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+section ul{
+    text-decoration: none;
+}
+
+#re{
+    background-color:rgb(8, 8, 8);
+}
+
+#sm{
+    background-color:rgba(253, 251, 251, 0.616);
+}
+
+#gow{
+    background-color:rgba(7, 165, 228, 0.616);
+}
+
+#ranking{
+    background-color: rgb(5, 5, 5);
+}
+
+#ranking .container{
+    display: block;
+}
+
+section h3{
+    color:darkorange;
+    padding: 8px;
+    font-family: 'Nosifer', sans-serif;
+}
+
+form input,
+form button{
+    display: block;
+    width: 400px;
+    margin-bottom: 8px;
+    padding: 16px;
+}
+
+form button{
+    display: inline;
+    width: 198px;
+    font-family: 'Bungee', sans-serif;
+    background-color: darkorange;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: black;
+    color: darkorange;
+    text-decoration: underline;
+}
+
+input:focus {
+    outline-color: darkorange;
+}
+
+footer {
+    background-color:  darkorange;
+    color: rgb(8, 8, 8);
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Nosifer', sans-serif;
+}
